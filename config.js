@@ -2,7 +2,7 @@
 window.HUMINT = {
   // GitHub repository as 'owner/name', e.g. 'humint-app/humint'. Turns on the download buttons
   // (from the latest GitHub release), the GitHub links, and the "All releases" link.
-  github: '',
+  github: 'Hiturunk/humint',
 
   // Telegram invite link, e.g. 'https://t.me/humint_chat'. Turns on the community links.
   telegram: 'https://t.me/HumIntSpace',
