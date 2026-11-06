@@ -12,9 +12,11 @@
     telegram: C.telegram || '',
     store: C.storeUrl || '',
     msstore: C.msStoreUrl || '',
+    token: (C.token && C.token.url) || '',
   };
   var signedBy = String(C.signedBy || '').trim();
-  var have = { github: !!gh, telegram: !!links.telegram, store: !!links.store, msstore: !!links.msstore, signed: !!signedBy, goatcounter: !!C.goatcounter };
+  var ca = String((C.token && C.token.ca) || '').trim();
+  var have = { github: !!gh, telegram: !!links.telegram, store: !!links.store, msstore: !!links.msstore, signed: !!signedBy, goatcounter: !!C.goatcounter, token: !!(ca && links.token) };
 
   function all(sel) { return Array.prototype.slice.call(document.querySelectorAll(sel)); }
   function named(file, v) { return String(file || '').replace('{v}', v); }
@@ -39,6 +41,22 @@
   all('[data-link]').forEach(function (a) {
     var href = links[a.getAttribute('data-link')];
     if (href) external(a, href); else a.hidden = true;
+  });
+
+  // The token's contract address, and a button that copies it.
+  all('[data-ca]').forEach(function (el) { el.textContent = ca; });
+  all('[data-ticker]').forEach(function (el) { if (C.token && C.token.ticker) el.textContent = C.token.ticker; });
+  all('[data-copy-ca]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var label = b.querySelector('[data-label]') || b, was = label.textContent;
+      var done = function () { label.textContent = 'Copied'; setTimeout(function () { label.textContent = was; }, 1600); };
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(ca).then(done, function () { select(); });
+      else select();
+      function select() { // no clipboard access: select the address so it can be copied by hand
+        var el = document.querySelector('[data-ca]'), r = document.createRange();
+        r.selectNodeContents(el); var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+      }
+    });
   });
 
   // The store button.

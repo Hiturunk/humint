@@ -158,3 +158,12 @@ nav.links + .icon-link { margin-left: 4px; }
 .link-card h3 span { color: var(--brand); }
 .small-brand { font-size: 15px; gap: 8px; }
 section[id], [id="privacy"] { scroll-margin-top: 72px; }
+
+/* $HUMINT: the contract address with a copy button */
+.token-card { margin-bottom: 18px; }
+.ca-label { margin: 0 0 8px; font-size: 13px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+.ca { display: flex; align-items: center; gap: 12px; padding: 10px 10px 10px 16px; border: 1px solid var(--line-2); border-radius: var(--r); background: var(--surface-2); }
+.ca code { flex: 1; min-width: 0; background: none; padding: 0; border: 0; font: 600 15px/1.4 ui-monospace, 'Cascadia Mono', Consolas, monospace; color: var(--text); overflow-wrap: anywhere; }
+.ca .btn svg { width: 16px; height: 16px; }
+.token-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+@media (max-width: 520px) { .ca { flex-direction: column; align-items: stretch; } .token-actions .btn { flex: 1 1 100%; } }

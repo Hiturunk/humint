@@ -7,6 +7,13 @@ window.HUMINT = {
   // Telegram invite link, e.g. 'https://t.me/humint_chat'. Turns on the community links.
   telegram: 'https://t.me/HumIntSpace',
 
+  // The $HUMINT community token (Solana, pump.fun). Empty = the token section and nav link are hidden.
+  token: {
+    ticker: '$HUMINT',
+    ca: 'BmauGLxEDX4MABC3BBBqyM1UjpDP5jMT7qUb2HXZpump',
+    url: 'https://pump.fun/coin/BmauGLxEDX4MABC3BBBqyM1UjpDP5jMT7qUb2HXZpump',
+  },
+
   // GoatCounter site code: 'humint' if your dashboard is humint.goatcounter.com.
   // Counts visits and download clicks without cookies. Empty = no analytics at all.
   goatcounter: '',
