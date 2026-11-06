@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Humint: a fingerprint pressed into a coin. The fingerprint is Lucide's "fingerprint-pattern" (ISC license). -->
+  <defs>
+    <linearGradient id="coin" x1="0.15" y1="0.05" x2="0.85" y2="0.95">
+      <stop offset="0" stop-color="#34D48F"/>
+      <stop offset="0.55" stop-color="#14A86C"/>
+      <stop offset="1" stop-color="#0A7A4C"/>
+    </linearGradient>
+    <g id="print" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 10a2 2 0 0 0-2 2c0 1.02-.1 2.51-.26 4"/>
+      <path d="M14 13.12c0 2.38 0 6.38-1 8.88"/>
+      <path d="M17.29 21.02c.12-.6.43-2.3.5-3.02"/>
+      <path d="M2 12a10 10 0 0 1 18-6"/>
+      <path d="M2 16h.01"/>
+      <path d="M21.8 16c.2-2 .131-5.354 0-6"/>
+      <path d="M5 19.5C5.5 18 6 15 6 12a6 6 0 0 1 .34-2"/>
+      <path d="M8.65 22c.21-.66.45-1.32.57-2"/>
+      <path d="M9 6.8a6 6 0 0 1 9 5.2v2"/>
+    </g>
+  </defs>
+  <circle cx="64" cy="64" r="61" fill="url(#coin)"/>
+  <circle cx="64" cy="64" r="60" fill="none" stroke="#08603C" stroke-opacity="0.55" stroke-width="2"/>
+  <circle cx="64" cy="64" r="51.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="2.5"/>
+  <!-- pressed in: a shade under each ridge, then the ridge -->
+  <use href="#print" transform="translate(64 67.4) scale(2.9) translate(-12 -12)" stroke="#05432A" stroke-opacity="0.32" stroke-width="2"/>
+  <use href="#print" transform="translate(64 66) scale(2.9) translate(-12 -12)" stroke="#FFFFFF" stroke-width="1.9"/>
+</svg>
