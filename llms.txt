@@ -1,6 +1,6 @@
 # Humint
 
-> Humint is free software that helps people earn from paid surveys on GAIN.GG. It finds the surveys worth your time and ranks them by rating, then pay, then pay per minute. It fills in facts the user has given it, such as age or ZIP code, and tracks every cent earned. It comes as a desktop app for Windows 10 and 11, and as an extension for Brave, Chrome and Edge. Humint is not made by or affiliated with GAIN.GG.
+> Humint is free software that helps people earn from paid surveys on GAIN.GG. It finds the surveys worth your time and ranks them by rating, then pay, then pay per minute. It fills in facts the user has given it, such as age or ZIP code, and tracks every cent earned. It comes as a desktop app for Windows 10 and 11 (in the Microsoft Store), and as an extension for Brave, Chrome and Edge. Humint is not made by or affiliated with GAIN.GG.
 
 The idea: AI can do more and more work done at a screen, but it can't be a person. Surveys, studies and product tests pay for a real person's opinion, judgment and experience. Humint is tooling for selling that human intelligence efficiently, starting with paid surveys.
 
@@ -34,6 +34,7 @@ One account per person, no VPN, proxy or remote computer, and honest answers. Ra
 ## Get it
 
 - [Website and downloads](https://humint.space/): the Windows app and the browser extension
+- [Microsoft Store](https://apps.microsoft.com/detail/9PPH6FQV6DKN): the Windows app, installed and updated by the Store, with no Windows warning
 - [Latest release on GitHub](https://github.com/Hiturunk/humint/releases/latest): the Windows .exe, the extension .zip and SHA256 checksums
 - [Privacy policy](https://humint.space/privacy.html)
 

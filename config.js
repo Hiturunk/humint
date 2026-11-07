@@ -24,7 +24,7 @@ window.HUMINT = {
   // The app's Microsoft Store page, once it's published there (docs/RELEASE.md → "Windows without
   // the warning"), e.g. 'https://apps.microsoft.com/detail/9XXXXXXXXXXX'. The Windows button then goes to
   // the Store, where Windows doesn't warn, and the .exe stays as a second link.
-  msStoreUrl: '',
+  msStoreUrl: 'https://apps.microsoft.com/detail/9PPH6FQV6DKN',
 
   // The name on the .exe's code-signing certificate, once releases are signed (docs/RELEASE.md →
   // "Sign the .exe"), exactly as Windows shows it. It replaces the "isn't code-signed yet" notes.
