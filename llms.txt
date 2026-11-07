@@ -1,0 +1,49 @@
+# Humint
+
+> Humint is free software that helps people earn from paid surveys on GAIN.GG. It finds the surveys worth your time and ranks them by rating, then pay, then pay per minute. It fills in facts the user has given it, such as age or ZIP code, and tracks every cent earned. It comes as a desktop app for Windows 10 and 11, and as an extension for Brave, Chrome and Edge. Humint is not made by or affiliated with GAIN.GG.
+
+The idea: AI can do more and more work done at a screen, but it can't be a person. Surveys, studies and product tests pay for a real person's opinion, judgment and experience. Humint is tooling for selling that human intelligence efficiently, starting with paid surveys.
+
+## What it does
+
+- Ranks the surveys available to you across GAIN.GG's survey walls, so the best-paying ones that are likely to finish come first.
+- Fills in facts you saved, like gender, age, ZIP code and education, when you press Alt+F. Alt+N fills the page and moves to the next one. It works the way a browser fills in an address.
+- Can reuse your own earlier answer when the same question comes back within 30 days (optional).
+- Tracks earnings: your lifetime total, this month, the last 30 days, and which survey providers paid most.
+- The desktop app adds one window with a built-in browser, a list of your best surveys kept up to date, automatic daily rewards and quests, and optional automatic crypto cash-out.
+
+## What it never does
+
+- It never makes up answers or writes them with AI. Opinions, attention checks and new questions are always answered by the user.
+- It never presses a survey's final Submit for you.
+- It never saves passwords.
+- It never sends your profile, answers or history anywhere. They stay on your computer.
+
+## Cost and how it's funded
+
+Humint is free, with no ads and no data selling. When a user creates a new GAIN.GG account through Humint's setup, they join through Humint's invite link: the user gets GAIN.GG's welcome bonus, and GAIN.GG pays Humint a referral bonus from its own funds, never from the user's earnings.
+
+## Realistic earnings
+
+Expect a few dollars an hour at first. Surveys often screen people out, and pay is cents to a couple of dollars per survey. Humint learns which surveys finish for each person, so hourly earnings improve over time. It will not make anyone rich. GAIN.GG pays out in crypto, gift cards, a virtual Visa or PayPal; crypto and gift cards start around $1.
+
+## Rules to follow on GAIN.GG
+
+One account per person, no VPN, proxy or remote computer, and honest answers. Random or fake answers get rewards taken back.
+
+## Get it
+
+- [Website and downloads](https://humint.space/): the Windows app and the browser extension
+- [Latest release on GitHub](https://github.com/Hiturunk/humint/releases/latest): the Windows .exe, the extension .zip and SHA256 checksums
+- [Privacy policy](https://humint.space/privacy.html)
+
+## Community and contact
+
+- [Telegram](https://t.me/HumIntSpace)
+- [X](https://x.com/humintspace)
+- [Report a problem on GitHub](https://github.com/Hiturunk/humint/issues)
+- Email: panarkacorporation@gmail.com
+
+## $HUMINT community token
+
+$HUMINT is Humint's community token on Solana, launched on pump.fun. Its only official contract address is BmauGLxEDX4MABC3BBBqyM1UjpDP5jMT7qUb2HXZpump ([pump.fun page](https://pump.fun/coin/BmauGLxEDX4MABC3BBBqyM1UjpDP5jMT7qUb2HXZpump)). Coins with the same name but any other address are not Humint's. Creator fees fund development, growth, running costs and community rewards. It is a community token, not an investment: there is no promise of returns and no share of revenue, and its price can go to zero. Humint is free whether or not you hold it, and users' survey earnings never touch the token.

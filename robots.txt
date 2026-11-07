@@ -1,0 +1,6 @@
+# Humint (humint.space). Everyone is welcome to read and index this site, search engines and AI assistants alike.
+# A short summary for AI agents and assistants is at https://humint.space/llms.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://humint.space/sitemap.xml
