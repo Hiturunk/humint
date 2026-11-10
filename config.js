@@ -18,8 +18,8 @@ window.HUMINT = {
   // Counts visits and download clicks without cookies. Empty = no analytics at all.
   goatcounter: '',
 
-  // The Chrome Web Store page, once the listing is approved.
-  storeUrl: '',
+  // The live Chrome Web Store listing.
+  storeUrl: 'https://chromewebstore.google.com/detail/humint-%E2%80%93-survey-autofill/hidkblinalehaadgonnjiopgdmdheejh?authuser=0&hl=en',
 
   // The app's Microsoft Store page, once it's published there (docs/RELEASE.md → "Windows without
   // the warning"), e.g. 'https://apps.microsoft.com/detail/9XXXXXXXXXXX'. The Windows button then goes to
